@@ -16,8 +16,8 @@
 
 $(call inherit-product, device/xiaomi/santoni/full_santoni.mk)
 
-# Inherit some common AEX stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+# Inherit some common AOSiP stuff.
+$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 720
 EXTENDED_BUILD_TYPE := OFFICIAL
